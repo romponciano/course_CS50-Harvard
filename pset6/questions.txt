@@ -1,0 +1,30 @@
+0.  The longest words in the English language. (LOL)
+
+1.  getrusage returns resource usage 
+    statistics for the calling process measures in the 
+    "before" struct.
+    
+2.  16 sets of data.
+
+3.  With the getrusage(), you can get the reference point 
+    before and after the fuction run, which can filter out the 
+    unrelevent resource usage outside the process.
+    
+4.  When fgetc() returns digit, the loop will consider it as
+    not word, then use while loop to skip the character until
+    the function return a space.
+    It will be consider the end of a words, when the loops
+    reads a space.
+    
+5.  fscanf() might ends up with a string contains other 
+    signs, the result might not be listed in the dictionary 
+    for spelling check.
+    
+6.  The word for check and the dictionary for reference shall 
+    be consistant during the spell checking process, it would 
+    be safer to declare the arguments as const.
+    
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODO

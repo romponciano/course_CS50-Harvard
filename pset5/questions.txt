@@ -1,0 +1,57 @@
+0.  JPEG: 24 bit, or 16.8 million;
+    GIF: maximum of 256 colors (8 bits);
+    PNG: 24 bit, or 16.8 million;
+    BMP: 32 bit color, or over 4 billion;
+        
+1.  Only GIF.
+        
+2.  The higher the compression of an image file, the worse its 
+    quality. Because each compression, the file reduces the color 
+    variation used so loses image quality.
+    An image with less compression will have a better quality than 
+    an image with higher compression.
+        
+3.  JPEG.
+        
+4.  If a file is deleted on the FAT file system the first character of a 
+    file name in the directory entry is replaced by a special character 
+    causing the operating system (Windows, DOS etc.) to ignore the file. 
+    Also, all clusters allocated to the file are marked as 'available' 
+    in the File Allocation Table (FAT for short).
+    
+5.  Delete files and overwrite the section on disc with zeroes.
+    
+6.  It's a header file with "new" types of integer.
+    
+7.  We used to declare a specific data wide. Like uint_8t: an integer 
+    with 8 bits.
+    
+8.  WORD: 2 bytes
+    BYTE: 1 byte
+    LONG: 4 bytes
+    DWORD: 4 bytes
+    
+9.  The 2 bytes is for for header file (file type).
+    The header field used to identify the BMP & DIB file is 0x42 0x4D in 
+    hexadecimal.
+
+10. bfSize is for the size of the bitmap file and biSize is the size of 
+	the structure
+
+11. biHeight negative means the bitmap is a TOP-DOWN DIB and it's origin 
+    is the UPPER left corner.
+
+12. It specifies the number of colors and the bits of each pixel.
+
+13. Because fopen cannot create the outfile to write, with copy.c:37.
+
+14. Because the program is reading 1 RGB triple at a time.
+
+15. 3 pixels * 3 bytes per pixel = 9 bytes. 
+    +3 bytes = 12 bytes (multiple of 4)
+
+16. Skip over padding (if any, so looks for the next pixel)
+
+17. It's an integer constant used as argument to fseek function.
+
+18. Milo Banana dun it.
